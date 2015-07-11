@@ -7,4 +7,10 @@ describe User do
 
     expect(user.first_name).to eq "Jhonatan"
 
+  it "sets the last name" do
+    user = User.new
+    user.last_name = "Treminio"
+
+    expect(user.first_name).to eq "Treminio"
+
 end
